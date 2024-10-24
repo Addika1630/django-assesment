@@ -1,11 +1,12 @@
-# Django SSO using Google, Facebook and GitHub.
+# Django-registration-and-login-system
 
-This is a part of YouTube Tutorial video on How to implement Single Sign-On (SSO) in your Django Application.
+This project is a Django REST API developed using Django Rest Framework (DRF). It provides custom user roles, such as admin, coach, agent, and football player, and includes social authentication options for Google and Facebook. Moreover, the API features a secure email-based password reset process.
 
-English : https://youtu.be/GQySb3W2feo
+# Basic Features 
+User Roles: Includes custom roles such as Admin, Coach, Agent, and Football Player.
 
-Malayalam : https://youtu.be/2HauttTuTdA
+Authentication and Authorization: Supports registration via email/password as well as social login through Google and Facebook. Users can log in using either email/password or their social accounts. Provides secure password reset functionality via email.
 
-## Usage
+Role Management: Implements custom logic to manage user permissions and handle various user roles.
 
-![OAuth2 Flow Diagram](https://github.com/akjasim/cb-dj-sso/blob/main/oauth2-flow.png?raw=true)
+Social Login Integration: Uses Django Allauth to enable authentication through social platforms like Google and Facebook.
