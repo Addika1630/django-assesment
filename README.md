@@ -10,3 +10,18 @@ This project is a Django REST API developed using Django Rest Framework (DRF). I
 * Role Management: Implements custom logic to manage user permissions and handle various user roles.
 
 * Social Login Integration: Uses Django Allauth to enable authentication through social platforms like Google and Facebook.
+
+# Quick Start
+To get this project up and running locally on your computer follow the following steps.
+
+Set up a python virtual environment
+Run the following commands
+
+```sh
+$ pip install -r requirements.txt
+$ python manage.py migrate
+$ python manage.py createsuperuser
+$ python manage.py runserver
+```sh
+
+
